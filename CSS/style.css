@@ -19,7 +19,7 @@ main {
 }
 
 .wildlife {
-  background-image: url("../../img/bg.png");
+  background-image: url("./../img/bg.png");
   background-position: center;
   background-size: cover;
   width: 100vw;

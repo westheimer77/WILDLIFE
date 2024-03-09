@@ -1,0 +1,235 @@
+main
+    max-width: 1440px
+
+.wildlife
+    background-image: url("../../img/bg.png")
+    background-position: center 
+    background-size: cover
+    width: 100vw
+    height: 100vh
+    background-repeat: no-repeat
+    @media screen and (max-width: 650px)
+        height: 100%
+    &__content
+    &__title
+        display: flex
+        justify-content: center
+        align-items: center
+        gap: 20px
+        padding-top: 50px
+        margin-bottom: 90px
+    &__text
+        color: #FFF
+        text-align: center
+        text-shadow: 9.155px 4.519px 21.056px rgba(0, 0, 0, 0.40)
+        font-family: Roboto
+        font-size: 20px
+        font-style: normal
+        font-weight: 700
+        line-height: normal
+        letter-spacing: 4.1px
+    &__preface
+        text-align: center
+        text-shadow: 9.155px 4.519px 21.056px rgba(0, 0, 0, 0.40)
+        font-family: Roboto
+        font-size: 21.972px
+        font-style: normal
+        font-weight: 900
+        line-height: normal
+        letter-spacing: 40px
+        background: linear-gradient(93deg, rgba(255, 255, 255, 0.73) 4.45%, rgba(255, 255, 255, 0.65) 106.63%)
+        background-clip: text
+        -webkit-text-fill-color: transparent
+        margin-left: 36px
+        @media screen and (max-width: 650px)
+            margin: 0
+            letter-spacing: 11px
+            font-size: 18px
+    &__nickname
+        text-shadow: 9.155px 4.519px 21.056px rgba(0, 0, 0, 0.40)
+        font-family: "Roboto Condensed"
+        font-size: 216.658px
+        font-style: normal
+        font-weight: 700
+        line-height: 172px
+        background: linear-gradient(93deg, rgba(255, 255, 255, 0.85) 4.45%, rgba(255, 255, 255, 0.10) 106.63%)
+        background-clip: text
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+        text-align: center
+        @media screen and (max-width: 850px) 
+            font-size: 125px
+        @media screen and (max-width: 550px)
+            font-size: 66px
+    &__description
+        max-width: 532px
+        position: absolute
+        right: 100px
+        bottom: 18px
+        @media screen and (max-width: 650px)
+            display: flex
+            flex-direction: column
+            position: static
+    &__animal
+        color: #FFF
+        font-family: "Roboto Condensed"
+        font-size: 32.957px
+        font-style: normal
+        font-weight: 300
+        line-height: normal
+        letter-spacing: 3.79px
+        text-align: start
+        margin-bottom: 40px
+    &__place
+        color: #FFF
+        font-family: Roboto
+        font-size: 21.972px
+        font-style: normal
+        font-weight: 700
+        line-height: normal
+        margin-bottom: 10px
+    &__country
+        color: #FFF
+        font-family: Roboto
+        font-size: 21.972px
+        font-style: normal
+        font-weight: 300
+        line-height: normal
+        margin-bottom: 10px
+    &__features
+        color: #FFF
+        font-family: Roboto
+        font-size: 16.479px
+        font-style: normal
+        font-weight: 300
+        line-height: 24.718px
+        letter-spacing: 0.659px
+        margin-bottom: 10px
+    &__reed
+        color: #32D74B
+        font-family: Roboto
+        font-size: 21.972px
+        font-style: normal
+        font-weight: 300
+        line-height: normal
+        text-decoration: none
+    &__specifications
+        display: flex
+        gap: 109px
+        @media screen and (max-width: 650px)
+            display: flex
+            flex-direction: column
+            gap: 0
+    &__property
+    &__value
+        color: #FFF
+        font-family: "Roboto Condensed"
+        font-size: 43.943px
+        font-style: normal
+        font-weight: 400
+        line-height: normal
+        letter-spacing: -2.417px
+        margin-bottom: 10px
+        margin-top: 25px
+    &__characteristic
+        color: #FFF
+        font-family: Roboto
+        font-size: 21.972px
+        font-style: normal
+        font-weight: 700
+        line-height: normal
+        opacity: 0.3
+    &__header
+        height: 100vh
+        width: 90px
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.34) 0%, rgba(0, 0, 0, 0.87) 100%)
+        position: absolute
+        z-index: 1
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: space-between
+        @media screen and (max-width:650px)
+            height: 5%
+            width: 100%
+            display: flex
+            flex-direction: row
+            align-items: center
+            justify-content: space-between
+    &__navigate
+        display: flex
+        flex-direction: column
+        gap: 60px
+        margin-top: 60px
+        @media screen and (max-width: 650px)
+            flex-direction: row
+            gap: 1px
+            margin-top: 0
+            align-items: center
+            justify-content: space-between
+            align-content: center
+    &__pages
+        @media screen and (max-width: 650px)
+            display: flex
+    &__page
+        color: #FFF
+        font-family: "Roboto Condensed"
+        font-style: normal
+        font-weight: 400
+        line-height: normal
+        margin-bottom: 18px
+        margin-left: 16px
+        @media screen and (max-width: 650px)
+            margin: 10px 10px 0px 0px
+        &_01
+            font-size: 28px
+            letter-spacing: -1.54
+            @media screen and (max-width: 650px)
+                font-size: 17px
+        &_slash
+            font-size: 35.257px
+            letter-spacing: -1.939
+            @media screen and (max-width: 650px)
+                font-size: 17px
+        &_04
+            font-size: 17px
+            letter-spacing: -0.935px
+            @media screen and (max-width: 650px)
+                font-size: 17px
+
+            
+    &__buttons
+    &__button
+        width: 90px
+        height: 90px
+        @media screen 
+            width: 40px
+            height: 40px
+        &:hover
+            cursor: pointer
+        &_green
+            background: #24632E
+        &_black
+            background: #2C2C2E
+
+
+
+.icons
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.34) 0%, rgba(0, 0, 0, 0.87) 100%)
+    backdrop-filter: blur(9.15479564666748px)
+    border: none
+    width: 30px
+    height: 20px
+    &:hover
+        cursor: pointer 
+
+.vertline
+    border-left: 1px solid #fff
+    height: 340px
+    width: 1px
+    position: absolute
+    right: 47em
+    bottom: 18px
+    @media screen and (max-width:850px) 
+        display: none
+    

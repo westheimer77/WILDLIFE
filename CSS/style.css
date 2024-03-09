@@ -31,6 +31,11 @@ main {
     height: 100%;
   }
 }
+@media screen and (max-width: 650px) {
+  .wildlife__content {
+    overflow-x: hidden;
+  }
+}
 .wildlife__title {
   display: flex;
   justify-content: center;
@@ -106,6 +111,7 @@ main {
     display: flex;
     flex-direction: column;
     position: static;
+    padding: 10px;
   }
 }
 .wildlife__animal {
@@ -274,7 +280,7 @@ main {
   width: 90px;
   height: 90px;
 }
-@media screen {
+@media screen and (max-width: 650px) {
   .wildlife__button {
     width: 40px;
     height: 40px;
